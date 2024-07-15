@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5574FF4E2C42AE1700145360 /* LightHouse_CamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574FF4D2C42AE1700145360 /* LightHouse_CamApp.swift */; };
+		5574FF502C42AE1700145360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574FF4F2C42AE1700145360 /* ContentView.swift */; };
+		5574FF522C42AE1800145360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5574FF512C42AE1800145360 /* Assets.xcassets */; };
+		5574FF552C42AE1800145360 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5574FF542C42AE1800145360 /* Preview Assets.xcassets */; };
+		5574FF5F2C42AE1800145360 /* LightHouse_CamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574FF5E2C42AE1800145360 /* LightHouse_CamTests.swift */; };
+		5574FF692C42AE1800145360 /* LightHouse_CamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574FF682C42AE1800145360 /* LightHouse_CamUITests.swift */; };
+		5574FF6B2C42AE1800145360 /* LightHouse_CamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574FF6A2C42AE1800145360 /* LightHouse_CamUITestsLaunchTests.swift */; };
+		5574FF7E2C42B7CB00145360 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574FF7D2C42B7CB00145360 /* CameraViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5574FF5B2C42AE1800145360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5574FF422C42AE1600145360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5574FF492C42AE1700145360;
+			remoteInfo = "LightHouse Cam";
+		};
+		5574FF652C42AE1800145360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5574FF422C42AE1600145360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5574FF492C42AE1700145360;
+			remoteInfo = "LightHouse Cam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5574FF4A2C42AE1700145360 /* LightHouse Cam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LightHouse Cam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5574FF4D2C42AE1700145360 /* LightHouse_CamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightHouse_CamApp.swift; sourceTree = "<group>"; };
+		5574FF4F2C42AE1700145360 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5574FF512C42AE1800145360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5574FF542C42AE1800145360 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5574FF5A2C42AE1800145360 /* LightHouse CamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LightHouse CamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5574FF5E2C42AE1800145360 /* LightHouse_CamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightHouse_CamTests.swift; sourceTree = "<group>"; };
+		5574FF642C42AE1800145360 /* LightHouse CamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LightHouse CamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5574FF682C42AE1800145360 /* LightHouse_CamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightHouse_CamUITests.swift; sourceTree = "<group>"; };
+		5574FF6A2C42AE1800145360 /* LightHouse_CamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightHouse_CamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5574FF7D2C42B7CB00145360 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5574FF472C42AE1700145360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5574FF572C42AE1800145360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5574FF612C42AE1800145360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5574FF412C42AE1600145360 = {
+			isa = PBXGroup;
+			children = (
+				5574FF4C2C42AE1700145360 /* LightHouse Cam */,
+				5574FF5D2C42AE1800145360 /* LightHouse CamTests */,
+				5574FF672C42AE1800145360 /* LightHouse CamUITests */,
+				5574FF4B2C42AE1700145360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5574FF4B2C42AE1700145360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5574FF4A2C42AE1700145360 /* LightHouse Cam.app */,
+				5574FF5A2C42AE1800145360 /* LightHouse CamTests.xctest */,
+				5574FF642C42AE1800145360 /* LightHouse CamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5574FF4C2C42AE1700145360 /* LightHouse Cam */ = {
+			isa = PBXGroup;
+			children = (
+				5574FF4D2C42AE1700145360 /* LightHouse_CamApp.swift */,
+				5574FF4F2C42AE1700145360 /* ContentView.swift */,
+				5574FF512C42AE1800145360 /* Assets.xcassets */,
+				5574FF532C42AE1800145360 /* Preview Content */,
+				5574FF7D2C42B7CB00145360 /* CameraViewController.swift */,
+			);
+			path = "LightHouse Cam";
+			sourceTree = "<group>";
+		};
+		5574FF532C42AE1800145360 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5574FF542C42AE1800145360 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5574FF5D2C42AE1800145360 /* LightHouse CamTests */ = {
+			isa = PBXGroup;
+			children = (
+				5574FF5E2C42AE1800145360 /* LightHouse_CamTests.swift */,
+			);
+			path = "LightHouse CamTests";
+			sourceTree = "<group>";
+		};
+		5574FF672C42AE1800145360 /* LightHouse CamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5574FF682C42AE1800145360 /* LightHouse_CamUITests.swift */,
+				5574FF6A2C42AE1800145360 /* LightHouse_CamUITestsLaunchTests.swift */,
+			);
+			path = "LightHouse CamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5574FF492C42AE1700145360 /* LightHouse Cam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5574FF6E2C42AE1800145360 /* Build configuration list for PBXNativeTarget "LightHouse Cam" */;
+			buildPhases = (
+				5574FF462C42AE1700145360 /* Sources */,
+				5574FF472C42AE1700145360 /* Frameworks */,
+				5574FF482C42AE1700145360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LightHouse Cam";
+			productName = "LightHouse Cam";
+			productReference = 5574FF4A2C42AE1700145360 /* LightHouse Cam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5574FF592C42AE1800145360 /* LightHouse CamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5574FF712C42AE1800145360 /* Build configuration list for PBXNativeTarget "LightHouse CamTests" */;
+			buildPhases = (
+				5574FF562C42AE1800145360 /* Sources */,
+				5574FF572C42AE1800145360 /* Frameworks */,
+				5574FF582C42AE1800145360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5574FF5C2C42AE1800145360 /* PBXTargetDependency */,
+			);
+			name = "LightHouse CamTests";
+			productName = "LightHouse CamTests";
+			productReference = 5574FF5A2C42AE1800145360 /* LightHouse CamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5574FF632C42AE1800145360 /* LightHouse CamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5574FF742C42AE1800145360 /* Build configuration list for PBXNativeTarget "LightHouse CamUITests" */;
+			buildPhases = (
+				5574FF602C42AE1800145360 /* Sources */,
+				5574FF612C42AE1800145360 /* Frameworks */,
+				5574FF622C42AE1800145360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5574FF662C42AE1800145360 /* PBXTargetDependency */,
+			);
+			name = "LightHouse CamUITests";
+			productName = "LightHouse CamUITests";
+			productReference = 5574FF642C42AE1800145360 /* LightHouse CamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5574FF422C42AE1600145360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5574FF492C42AE1700145360 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5574FF592C42AE1800145360 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5574FF492C42AE1700145360;
+					};
+					5574FF632C42AE1800145360 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5574FF492C42AE1700145360;
+					};
+				};
+			};
+			buildConfigurationList = 5574FF452C42AE1600145360 /* Build configuration list for PBXProject "LightHouse Cam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5574FF412C42AE1600145360;
+			productRefGroup = 5574FF4B2C42AE1700145360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5574FF492C42AE1700145360 /* LightHouse Cam */,
+				5574FF592C42AE1800145360 /* LightHouse CamTests */,
+				5574FF632C42AE1800145360 /* LightHouse CamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5574FF482C42AE1700145360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5574FF552C42AE1800145360 /* Preview Assets.xcassets in Resources */,
+				5574FF522C42AE1800145360 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5574FF582C42AE1800145360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5574FF622C42AE1800145360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5574FF462C42AE1700145360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5574FF502C42AE1700145360 /* ContentView.swift in Sources */,
+				5574FF4E2C42AE1700145360 /* LightHouse_CamApp.swift in Sources */,
+				5574FF7E2C42B7CB00145360 /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5574FF562C42AE1800145360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5574FF5F2C42AE1800145360 /* LightHouse_CamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5574FF602C42AE1800145360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5574FF6B2C42AE1800145360 /* LightHouse_CamUITestsLaunchTests.swift in Sources */,
+				5574FF692C42AE1800145360 /* LightHouse_CamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5574FF5C2C42AE1800145360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5574FF492C42AE1700145360 /* LightHouse Cam */;
+			targetProxy = 5574FF5B2C42AE1800145360 /* PBXContainerItemProxy */;
+		};
+		5574FF662C42AE1800145360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5574FF492C42AE1700145360 /* LightHouse Cam */;
+			targetProxy = 5574FF652C42AE1800145360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5574FF6C2C42AE1800145360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5574FF6D2C42AE1800145360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5574FF6F2C42AE1800145360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LightHouse Cam/Preview Content\"";
+				DEVELOPMENT_TEAM = ZAHPTDR6TQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LightHouse-Cam-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to your camera to detect lighthouse";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cammato.LightHouse-Cam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5574FF702C42AE1800145360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LightHouse Cam/Preview Content\"";
+				DEVELOPMENT_TEAM = ZAHPTDR6TQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LightHouse-Cam-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to your camera to detect lighthouse";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cammato.LightHouse-Cam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5574FF722C42AE1800145360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cammato.LightHouse-CamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightHouse Cam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LightHouse Cam";
+			};
+			name = Debug;
+		};
+		5574FF732C42AE1800145360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cammato.LightHouse-CamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightHouse Cam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LightHouse Cam";
+			};
+			name = Release;
+		};
+		5574FF752C42AE1800145360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cammato.LightHouse-CamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LightHouse Cam";
+			};
+			name = Debug;
+		};
+		5574FF762C42AE1800145360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cammato.LightHouse-CamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LightHouse Cam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5574FF452C42AE1600145360 /* Build configuration list for PBXProject "LightHouse Cam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5574FF6C2C42AE1800145360 /* Debug */,
+				5574FF6D2C42AE1800145360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5574FF6E2C42AE1800145360 /* Build configuration list for PBXNativeTarget "LightHouse Cam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5574FF6F2C42AE1800145360 /* Debug */,
+				5574FF702C42AE1800145360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5574FF712C42AE1800145360 /* Build configuration list for PBXNativeTarget "LightHouse CamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5574FF722C42AE1800145360 /* Debug */,
+				5574FF732C42AE1800145360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5574FF742C42AE1800145360 /* Build configuration list for PBXNativeTarget "LightHouse CamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5574FF752C42AE1800145360 /* Debug */,
+				5574FF762C42AE1800145360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5574FF422C42AE1600145360 /* Project object */;
+}

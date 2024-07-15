@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "vecteezy_lighthouse-icon-logo-and-vector-illustration-beacon-tower_16589963.jpg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
